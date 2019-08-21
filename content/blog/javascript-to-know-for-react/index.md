@@ -380,7 +380,6 @@ following methods the most frequently:
 - find
 - some
 - every
-- includes
 - map
 - filter
 - reduce
@@ -422,7 +421,7 @@ const dogs = [
 ]
 
 dogs.find(dog => dog.name === 'Bernese Mountain Dog')
-// {id: 'dog-2', name: 'Berneses Mountain Dog', ...etc}
+// {id: 'dog-2', name: 'Bernese Mountain Dog', ...etc}
 
 dogs.some(dog => dog.temperament.includes('Aggressive'))
 // false
